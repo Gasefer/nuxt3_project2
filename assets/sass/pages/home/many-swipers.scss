@@ -1,0 +1,156 @@
+.mini_swiper1,
+.mini_swiper2,
+.mini_swiper3,
+.mini_swiper4,
+.mini_swiper5 {
+  width: 100%;
+  height: 100%;
+  max-width: 1440rem;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.many-swipers {
+  display: flex;
+  flex-direction: column;
+  gap: 50rem;
+}
+
+.mini-swiper1,
+.mini-swiper2,
+.mini-swiper3,
+.mini-swiper4,
+.mini-swiper5 {
+  display: flex;
+  flex-direction: column;
+  gap: 30rem;
+}
+
+.many-swipers_labels-and-button {
+  height: 48rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.many-swipers_labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10rem;
+}
+.many-swipers_labels h3 {
+  font-size: 29rem;
+  font-weight: 700;
+  line-height: 29rem;
+}
+.many-swipers_h6 {
+  font-size: 16rem;
+  font-weight: 500;
+  line-height: 24rem;
+  padding: 10rem;
+  border-radius: 100rem;
+}
+
+.h6_hit-sales {
+  color: #d00000;
+  background: #ffebeb;
+}
+
+.h6_profitable-offers {
+  color: #0036f4;
+  background: #d4ddff;
+}
+
+.h6_new {
+  color: #ff7e07;
+  background: #ffe9d4;
+}
+
+.many-swipers_button {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+  width: 106rem;
+  height: 48rem;
+}
+
+.mini-swiper-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e9e8e8;
+  width: 48rem;
+  height: 48rem;
+  border-radius: 100%;
+  user-select: none;
+}
+
+.many-swipers__sales-cell {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  border-radius: 10rem;
+  font-size: 16rem;
+  line-height: 19.2rem;
+}
+
+.sales-cell_name-and-favourite {
+  height: 48rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.button_like {
+  display: block;
+}
+
+.button_like-active {
+  display: none;
+}
+
+.sales-cell_price-and-cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sales-cell_in-stock {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sales-cell_in-stock-p {
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 21rem;
+  color: $green-dark;
+}
+
+.mini-swiper4 {
+  margin: 59rem 0 101rem 0;
+}
+
+.swiper-button-disabled {
+  opacity: 50%;
+}

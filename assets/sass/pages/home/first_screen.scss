@@ -1,0 +1,128 @@
+.first-screen {
+  display: flex;
+  flex-direction: row;
+  gap: 20rem;
+  align-items: flex-start;
+  .mini-container {
+    margin-right: 0;
+  }
+}
+
+.first-screen .mini-container {
+  margin: 0;
+}
+
+.first-screen_catalog {
+  position: relative;
+  width: 300rem;
+}
+
+.first-screen_catalog-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  border-radius: 10rem;
+}
+
+.first-screen_catalog__link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-screen_catalog__link:hover {
+  background: #e9e8e8;
+}
+
+.first-screen_catalog__item {
+  margin: 8rem 12rem;
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  width: 100%;
+  .svg__box-margin-left {
+    margin-left: auto;
+  }
+}
+
+.catalog_block-list {
+  display: none;
+  position: absolute;
+  margin: auto 0 auto auto;
+  top: -1rem;
+  left: 100%;
+  height: 100%;
+  width: 70%;
+}
+
+.catalog_list-box {
+  min-width: 1096rem;
+  background-color: $gray;
+  display: inline-block;
+  width: max-content;
+  margin: 0 0 0 20rem;
+  border-radius: 10rem;
+  padding: 20rem;
+  overflow: hidden;
+}
+
+.first-screen_catalog__link:hover + .catalog_block-list {
+  display: flex;
+}
+
+.catalog_block-list:hover {
+  display: flex;
+}
+
+.catalog_full_list {
+  display: block;
+  -moz-columns: auto 200rem;
+  columns: auto 200rem;
+  -moz-column-gap: 40rem;
+  column-gap: 41rem;
+  row-gap: 0;
+  border-radius: 10rem;
+  height: 100%;
+  width: -moz-max-content;
+  width: max-content;
+  background: #f8f8f8;
+}
+
+.catalog_list__block {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  width: 230rem;
+  margin-bottom: 8px;
+}
+
+.catalog__name-block {
+  color: $green-dark;
+  line-height: 19.2rem;
+  font-size: 16rem;
+  font-weight: 400;
+}
+
+.catalog_list-item-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 192rem;
+}
+
+.catalog__list-item {
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 16.8rem;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 0.3s ease;
+  &:hover {
+    color: $green-dark;
+  }
+}
